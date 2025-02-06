@@ -6,9 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  // By default, the bus form is hidden
+  isBusFormVisible = false;
 
-  showForm(type: string): void {
-    console.log(`Show form for: ${type}`);
-    // Add logic to display forms or navigate accordingly
+  // Function to show the bus booking form when the button is clicked
+  showForm(form: string) {
+    if (form === 'bus') {
+      // Toggle the visibility of the form
+      this.isBusFormVisible = !this.isBusFormVisible;
+    }
   }
 }
+
+

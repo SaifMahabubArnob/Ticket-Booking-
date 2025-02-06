@@ -23,6 +23,8 @@ import { PopularHotelsComponent } from './popular-hotels/popular-hotels.componen
 import { AppPromotionComponent } from './app-promotion/app-promotion.component';
 import { PaymentLogosComponent } from './payment-logos/payment-logos.component';
 import { PopularRoutesComponent } from './popular-routes/popular-routes.component';
+import { BusBookingFormComponent } from './bus-booking-form/bus-booking-form.component';
+
 
 
 @NgModule({
@@ -47,6 +49,7 @@ import { PopularRoutesComponent } from './popular-routes/popular-routes.componen
     AppPromotionComponent,
     PaymentLogosComponent,
     PopularRoutesComponent,
+    BusBookingFormComponent, 
     
   ],
   imports: [

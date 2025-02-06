@@ -17,6 +17,7 @@ import { PopularHotelsComponent } from './popular-hotels/popular-hotels.componen
 import { AppPromotionComponent } from './app-promotion/app-promotion.component';
 import { PaymentLogosComponent } from './payment-logos/payment-logos.component';
 import { PopularRoutesComponent } from './popular-routes/popular-routes.component';
+import { BusBookingFormComponent } from './bus-booking-form/bus-booking-form.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -36,6 +37,7 @@ const routes: Routes = [
   { path: 'app-promotion', component: AppPromotionComponent },
   { path: 'payment-logos', component: PaymentLogosComponent },
   { path: 'popular-routes', component: PopularRoutesComponent },
+  { path: 'bus-booking', component: BusBookingFormComponent },
 
 ];
 
