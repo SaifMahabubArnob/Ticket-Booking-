@@ -1,0 +1,49 @@
+<!-- navbar.component.html -->
+<div class="navbar" style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: #f8f9fa;">
+    <!-- Logo Section -->
+    <div class="logo">
+        <img src="https://bdtickets.com/images/alt-logo-new.png" alt="BDTickets Logo" style="width: 120px; height: auto;">
+    </div>
+    
+    <!-- Menu Section -->
+    <div style="display: flex; gap: 15px; align-items: center;">
+        <a href="#" (click)="showForm('bus')" style="display: flex; align-items: center;">
+            <img src="https://img.freepik.com/premium-vector/black-white-drawing-bus-with-word-word-it_946532-13704.jpg?ga=GA1.1.2049647867.1735061240&semt=ais_incoming" alt="Bus Icon" style="width: 20px; height: 20px; margin-right: 5px;">
+            Bus
+        </a>
+
+        <a href="#" (click)="showForm('air')" style="display: flex; align-items: center;">
+            <img src="https://img.freepik.com/premium-vector/playful-airplane-vector-illustration-travel-aviation-design_1041213-6566.jpg?ga=GA1.1.2049647867.1735061240&semt=ais_incoming" alt="Air Icon" style="width: 20px; height: 20px; margin-right: 5px;">
+            Air
+        </a>
+        <a href="#" (click)="showForm('ship')" style="display: flex; align-items: center;">
+            <img src="https://img.freepik.com/premium-vector/container-cargo-ship-vector-illustration_1222386-7745.jpg?ga=GA1.1.2049647867.1735061240&semt=ais_incoming" alt="Ship Icon" style="width: 20px; height: 20px; margin-right: 5px;">
+            Ship
+        </a>
+        <a href="#" (click)="showForm('hotel')" style="display: flex; align-items: center;">
+            <img src="https://img.freepik.com/premium-vector/hotel-icon_933463-5167.jpg?ga=GA1.1.2049647867.1735061240&semt=ais_incoming" alt="Hotel Icon" style="width: 20px; height: 20px; margin-right: 5px;">
+            Hotel
+        </a>
+        <a href="flashDeals.jsp" style="display: flex; align-items: center;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSRTM1bd7FxAtG_oIb2qkOf6k4clsodEMWA&s" alt="Deals Icon" style="width: 20px; height: 20px; margin-right: 5px;">
+            Flash Deals
+        </a>
+        <a href="myBooking.jsp" style="display: flex; align-items: center;">
+            <img src="https://img.freepik.com/premium-vector/vacation-icon_1134104-1872.jpg?ga=GA1.1.2049647867.1735061240&semt=ais_incoming" alt="Booking Icon" style="width: 20px; height: 20px; margin-right: 5px;">
+            My Booking
+        </a>
+        <a href="tel:16247" style="display: flex; align-items: center;">
+            <img src="https://img.freepik.com/premium-vector/telephone-icon_701361-1518.jpg?ga=GA1.1.2049647867.1735061240&semt=ais_incoming" alt="Phone Icon" style="width: 20px; height: 20px; margin-right: 5px;">
+            Call 16247
+        </a>
+        <a href="signUp.jsp" style="display: flex; align-items: center;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtYnIOM6R6COoA3jzfYzZ4iJJ5hAQg4Al6mg&s" alt="Sign Up Icon" style="width: 20px; height: 20px; margin-right: 5px;">
+            Sign Up
+        </a>
+
+        <a href="<c:url value='/admin/tickets'/>" style="display: flex; align-items: center;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI2QRWu5ow1jvU9h3wdv6Z5-tZRepmJ8XDIQ&s" alt="Admin Icon" style="width: 30px; height: 30px; margin-right: 5px;">
+            Admin
+        </a>
+    </div>
+</div>
